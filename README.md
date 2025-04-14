@@ -29,23 +29,23 @@ Esta aplicação realiza o envio de mensagens customizáveis de forma períodica
 
 # Configuração para Uso
 
-Crie uma conta na Twillio(https://www.twilio.com/en-us) 
-Com a conta criada, siga para configuração sandbox do whatsapp, você poderá efetuar o procedimento via mensagem no whatsapp fornecido, ou escaneando o código QR disponibilizado na tela da Twillio(https://www.twilio.com/console/sms/whatsapp/learn)
-Após realizar o primeiro contato e configurar (join tax-classroom), salve os seguintes parâmetros para uso no projeto: 
+-Crie uma conta na Twillio(https://www.twilio.com/en-us) 
+-Com a conta criada, siga para configuração sandbox do whatsapp, você poderá efetuar o procedimento via mensagem no whatsapp fornecido, ou escaneando o código QR disponibilizado na tela da Twillio(https://www.twilio.com/console/sms/whatsapp/learn)
+-Após realizar o primeiro contato e configurar (join tax-classroom), salve os seguintes parâmetros para uso no projeto: 
 
-TWILIO_ACCOUNT_SID= Fornecido pelo Twillio
-TWILIO_AUTH_TOKEN= Fornecido pelo Twillio
-TWILIO_WHATSAPP_NUMBER= Fornecido pelo Twillio
-DESTINATARIO= Número destino para receber as mensagens. 
+-TWILIO_ACCOUNT_SID= Fornecido pelo Twillio
+-TWILIO_AUTH_TOKEN= Fornecido pelo Twillio
+-TWILIO_WHATSAPP_NUMBER= Fornecido pelo Twillio
+-DESTINATARIO= Número destino para receber as mensagens. 
 
 ![image](https://github.com/user-attachments/assets/dea6429a-939d-4c97-a518-5ec35634dceb)
 
 
-Instale as dependências do projeto com npm install. 
-Após preencher os campos necessários no arquivo ".env", rode o projeto no modo de desenvolvimento com o comando npm run dev.
-Por padrão o tempo estimado para envio de mensagens é de 15 minutos. 
+-Instale as dependências do projeto com npm install. 
+-Após preencher os campos necessários no arquivo ".env", rode o projeto no modo de desenvolvimento com o comando npm run dev.
+-Por padrão o tempo estimado para envio de mensagens é de 15 minutos. 
 
-Caso queira realizar um teste rápido, basta chamar o método diretamente no arquivo index.ts desta forma: sendReminder(); e dentro de 1 minuto você irá receber a mensagem no whatsapp de destino. 
+-Caso queira realizar um teste rápido, basta chamar o método diretamente no arquivo index.ts desta forma: sendReminder(); e dentro de 1 minuto você irá receber a mensagem no whatsapp de destino. 
 ![image](https://github.com/user-attachments/assets/0c6a4406-37db-4b93-926d-1fa00bd5faaa)
 
 
@@ -54,5 +54,5 @@ No contexto desta aplicação, o lembrete para beber água foi recebido com suce
 
  ![image](https://github.com/user-attachments/assets/d847cac6-1473-42b5-9759-b9c5760e05ba)
 
-
+- Desenvolvido com carinho por Luan Andriel. 
 
